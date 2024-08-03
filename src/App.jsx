@@ -5,6 +5,7 @@ import FileBase64 from "react-file-base64"
 import { Modal, Button } from 'react-bootstrap'
 
 const App = () => {
+  
     const [data, setData] = useState([])
     const [editModalShow, setEditModalShow] = useState(false)
     const [editData, setEditData] = useState({})
